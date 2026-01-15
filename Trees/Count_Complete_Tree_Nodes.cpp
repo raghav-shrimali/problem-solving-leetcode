@@ -1,28 +1,28 @@
-## Approach
-We take advantage of the properties of a **complete binary tree**.
+// ## Approach
+// We take advantage of the properties of a **complete binary tree**.
 
-1. Calculate the height of the left-most path.
-2. Calculate the height of the right-most path.
-3. If both heights are equal:
-   - The tree is a **perfect binary tree**
-   - Number of nodes = `2^height - 1`
-4. Otherwise:
-   - Recursively count nodes in left and right subtrees.
+// 1. Calculate the height of the left-most path.
+// 2. Calculate the height of the right-most path.
+// 3. If both heights are equal:
+//    - The tree is a **perfect binary tree**
+//    - Number of nodes = `2^height - 1`
+// 4. Otherwise:
+//    - Recursively count nodes in left and right subtrees.
 
-This avoids traversing every node and improves performance.
+// This avoids traversing every node and improves performance.
 
----
+// ---
 
-## Time Complexity
-- **O(log² N)**
-  - Height calculation takes `O(log N)`
-  - Recursion depth is `O(log N)`
+// ## Time Complexity
+// - **O(log² N)**
+//   - Height calculation takes `O(log N)`
+//   - Recursion depth is `O(log N)`
 
----
+// ---
 
-## Space Complexity
-- **O(log N)**
-- Due to recursive stack space
+// ## Space Complexity
+// - **O(log N)**
+// - Due to recursive stack space
 
 
 /**
