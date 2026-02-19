@@ -38,5 +38,5 @@ public:
             if (nums[mid] == target) ans = mid;
         }
         return ans;
-    }
+     }
 };
