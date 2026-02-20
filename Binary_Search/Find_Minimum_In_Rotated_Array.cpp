@@ -26,5 +26,5 @@ public:
                 right = mid;
         }
         return nums[left];
-    }
+     }
 };
