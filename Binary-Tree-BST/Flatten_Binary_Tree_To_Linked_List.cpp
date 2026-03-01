@@ -3,7 +3,7 @@
 // Time: O(n), Space: O(h)
 
 
-class Solution {
+class Solution 
 public:
 TreeNode* prev = NULL;
 
